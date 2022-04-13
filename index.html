@@ -8,10 +8,10 @@
     <title>CSS test</title>
 
     <link rel="stylesheet" type="text/css" href="dist/normalize.css">
-    <link rel="stylesheet" type="text/css" href="dist/style.css"> <!-- 1 style.css -->
-    <link rel="stylesheet" type="text/css" href="dist/style-list.css"> <!-- for ul > li style-list.css -->
-    <link rel="stylesheet" type="text/css" href="dist/style-t.css" media="screen and (max-width: 1024px)"> <!-- 2 style-t.css -->
-    <link rel="stylesheet" type="text/css" href="dist/style-m.css" media="screen and (max-width: 768px)"> <!-- 3 style-m.css -->
+    <link rel="stylesheet" type="text/css" href="dist/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="dist/style-list.css"> 
+    <link rel="stylesheet" type="text/css" href="dist/style-t.css" media="screen and (max-width: 1024px)">
+    <link rel="stylesheet" type="text/css" href="dist/style-m.css" media="screen and (max-width: 768px)"> -->
     <style>
         *, *::before, *::after{
             box-sizing: border-box;
@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <div id="page-1" class="p-1">
+    <div id="page-1" class="p-10">
         <p>
             <a href="javascript:show('page-2', 'page-1')">Prev</a>
             /
@@ -35,46 +35,44 @@
 
         <h1>CSS test</h1>
 
-        <h3>Grid</h3>
+        <h3>fc-?, bg-?, f-left, c-both, col-1</h3>
     
         <div class="container-1">
-            <div class="col-1 t-col-6 m-col-12 m-ta-center f-left bg-1 fc-c m-fc-1 m-bg-c">1</div>
-            <div class="col-1 t-col-6 m-col-12 m-ta-center f-left bg-2 fc-b m-fc-2 m-bg-b">2</div>
-            <div class="col-1 t-col-6 m-col-12 m-ta-center f-left bg-3 fc-a m-fc-3 m-bg-a">3</div>
-            <div class="col-1 t-col-6 m-col-12 m-ta-center f-left bg-4 fc-9 m-fc-4 m-bg-9">4</div>
-            <div class="col-1 t-col-6 m-col-12 m-ta-center f-left bg-5 fc-8 m-fc-5 m-bg-8">5</div>
-            <div class="col-1 t-col-6 m-col-12 m-ta-center f-left bg-6 fc-7 m-fc-6 m-bg-7">6</div>
-            <div class="col-1 t-col-6 m-col-12 m-ta-center f-left bg-7 fc-6 m-fc-7 m-bg-6">7</div>
-            <div class="col-1 t-col-6 m-col-12 m-ta-center f-left bg-8 fc-5 m-fc-8 m-bg-5">8</div>
-            <div class="col-1 t-col-6 m-col-12 m-ta-center f-left bg-9 fc-4 m-fc-9 m-bg-4">9</div>
-            <div class="col-1 t-col-6 m-col-12 m-ta-center f-left bg-a fc-3 m-fc-a m-bg-3">10</div>
-            <div class="col-1 t-col-6 m-col-12 m-ta-center f-left bg-b fc-2 m-fc-b m-bg-2">11</div>
-            <div class="col-1 t-col-6 m-col-12 m-ta-center f-left bg-c fc-1 m-fc-c m-bg-1">12</div>
+            <div class="col-1 f-left bg-1 fc-c">1</div>
+            <div class="col-1 f-left bg-2 fc-b">2</div>
+            <div class="col-1 f-left bg-3 fc-a">3</div>
+            <div class="col-1 f-left bg-4 fc-9">4</div>
+            <div class="col-1 f-left bg-5 fc-8">5</div>
+            <div class="col-1 f-left bg-6 fc-7">6</div>
+            <div class="col-1 f-left bg-7 fc-6">7</div>
+            <div class="col-1 f-left bg-8 fc-5">8</div>
+            <div class="col-1 f-left bg-9 fc-4">9</div>
+            <div class="col-1 f-left bg-a fc-3">10</div>
+            <div class="col-1 f-left bg-b fc-2">11</div>
+            <div class="col-1 f-left bg-c fc-1">12</div>
             <div class="c-both"></div>
         </div>
+
+        <h3>fs-10, lh-16, ls-2</h3>
+
+        <div class="fs-10 lh-16 ls-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam vel deserunt accusamus eaque, pariatur blanditiis quam expedita iure tenetur quasi beatae sapiente tempora culpa! Nemo aut eum quidem repellat ducimus!
+        </div>
+
+        <h3>fs-12, lh-14, ls-0</h3>
+
+        <div class="fs-12 lh-14 ls-0">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam vel deserunt accusamus eaque, pariatur blanditiis quam expedita iure tenetur quasi beatae sapiente tempora culpa! Nemo aut eum quidem repellat ducimus!
+        </div>
     
-        <h3>Editable DIV</h3>
-    
-        <div class="o-0-0 b-1-7 br-3 p-04" contenteditable="true">Click to edit :)</div>
-    
-        <h3>List item</h3>
-    
-        <ul class="li-p-05 li-b-1-1 li-mb-05">
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-        </ul>
-    
-        <ul class="li-p-05 li-b-1-1 li-d-inline-block">
-            <li>li > inline-block</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-        </ul>
+        <h3>fs-18, lh-12, ls--1</h3>
+
+        <div class="fs-18 lh-12 ls--1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam vel deserunt accusamus eaque, pariatur blanditiis quam expedita iure tenetur quasi beatae sapiente tempora culpa! Nemo aut eum quidem repellat ducimus!
+        </div>
     </div>
 
-    <div id="page-2" class="p-1 h-100" style="display: none;">
+    <div id="page-2" class="p-10 h-100" style="display: none;">
         <p>
             <a href="javascript:show('page-1', 'page-2')">Prev</a>
             /
