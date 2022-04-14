@@ -4,7 +4,7 @@ e.g. fs-12 => { font-size: 1.2em; }
 
 CLASS NAME / KEY / VALUES
 
-.fs / font-size / 0 ~ 24 
+.fs / font-size / 0 ~ 24
 .bg / background-color / 0 ~ f
 .ta / text-align / left, center, right
 .va / vertical-align / top, middle, bottom...
